@@ -10,4 +10,14 @@ public class Car {
     double traveledDistance;
     int doorCount;
     boolean running;
+    int wheelCount;
+    int numberOfSeats;
+    double lenght;
+    double widht;
+    double height;
+    String color;
+    String wheelsColor;
+    double weight;
+    // has-a relationship
+    Engine engine;
 }
